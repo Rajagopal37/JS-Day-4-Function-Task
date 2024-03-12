@@ -1,11 +1,11 @@
-//                         1. Print odd numbers in an array
+//                         2. Convert all the strings to title caps in a string array
 
 
 //Anonymos Function : Syntax: var funName = function(){return};   funName();
 //IIFE Function     : Syntax: (function FunctionName () {} ) ( argument );
 //Arrow Function    : Syntax: var varName = (parameter)=>{};      varName();
 
-
+//------------------Anonymos---------------------------
 let titleCase = function (str) {
         str = str.toLowerCase().split(' ');
         for (let i = 0; i < str.length; i++) {
@@ -17,6 +17,8 @@ let titleCase = function (str) {
 
 titleCase("RAJA GOPAL FSD-55");
 
+
+//------------------IIFE---------------------------
 (   function (str){
         str = str.toLowerCase().split(" ");
         for (var i=0; i<str.length; i++) {
@@ -27,6 +29,8 @@ titleCase("RAJA GOPAL FSD-55");
     }
 ) ("rajagopal t guvi");
 
+
+//------------------Arrow---------------------------
 let arrfun = (str) => {
     str = str.toLowerCase().split(" ");
     for (var i=0; i<str.length; i++) {
