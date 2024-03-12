@@ -11,18 +11,29 @@ let titleCase = function (str) {
         for (let i = 0; i < str.length; i++) {
             str[i] = str[i].at(0).toUpperCase() + str[i].slice(1);
         }
-        console.log(str.join(' '))
+        console.log(`2.Anonymos : RAJA GOPAL FSD-55 ==>  ${str.join(" ")}`)
         return str.join(' ');
     }
 
 titleCase("RAJA GOPAL FSD-55");
 
 (   function (str){
-        str = str.toLowerCase().split();
+        str = str.toLowerCase().split(" ");
         for (var i=0; i<str.length; i++) {
             str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
         }
-        console.log(`rajagopal t guvi to Title Uppercase is: ${str.join(" ")}`)
+        console.log(`2.IIFE     : rajagopal t guvi  ==>  ${str.join(" ")}`)
         return str.join(" ")
     }
 ) ("rajagopal t guvi");
+
+let arrfun = (str) => {
+    str = str.toLowerCase().split(" ");
+    for (var i=0; i<str.length; i++) {
+        str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+    }
+    console.log(`2.Arrow    : first LETTER uppercase  ==>  ${str.join(" ")}`)
+    return str.join(" ")
+};
+
+arrfun("first LETTER uppercase");

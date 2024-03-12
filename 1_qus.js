@@ -5,6 +5,7 @@
 //IIFE Function     : Syntax: (function FunctionName () {} ) ( );
 //Arrow Function    : Syntax: var varName = (parameter)=>{};      varName();
 
+
         //anonymous function
             let odd = function(a) {
                 arr =[];
