@@ -2,7 +2,7 @@
 
 
 //Anonymos Function : Syntax: var funName = function(){return};   funName();
-//IIFE Function     : Syntax: (function FunctionName () {} ) ( argument );
+//IIFE Function     : Syntax: (function () {} ) ( argument );
 //Arrow Function    : Syntax: var varName = (parameter)=>{};      varName();
 
 //------------------Anonymos---------------------------

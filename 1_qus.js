@@ -2,13 +2,13 @@
 
 
 //Anonymos Function : Syntax: var funName = function(){return};   funName();
-//IIFE Function     : Syntax: (function FunctionName () {} ) ( );
+//IIFE Function     : Syntax: (function (param) {} ) ( parm value );
 //Arrow Function    : Syntax: var varName = (parameter)=>{};      varName();
 
 
         //anonymous function
             let odd = function(a) {
-                arr =[];
+                let arr =[];
                 for ( let i=0; i<=a.length; i++) {
                     if (i%2==1) {
                         arr.push(i);
