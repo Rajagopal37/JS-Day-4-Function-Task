@@ -1,4 +1,4 @@
-
+//          7.Remove duplicates from an array
 
 //-----------------Anonymous------------------------
 
@@ -14,10 +14,21 @@ duplicate(full_arr);
 
 
 //-----------------IIFE------------------------
+( function (a) {
 
-let duplicates = (a) => {
-    console.log(`7.Arrow  : An arrray is  ${full_arr} without duplicates ${[...new Set(a)]}`);
-    document.getElementById("7b").innerHTML = (`Arrow : An arrray is [${full_arr}] without duplicates ${[...new Set(a)]}`);
-}
 
-duplicates(full_arr)
+    let duparr = [...new Set(a)];
+    console.log(`7.IIFE  : An arrray is  ${a} without duplicates ${[...new Set(a)]}`);
+    document.getElementById("7b").innerHTML = (`IIFE : An arrray is [${a}] without duplicates ${[...new Set(a)]}`);
+    return duparr
+} )
+
+([13,13,44,44,55,66,66]);
+
+
+
+
+
+
+    
+

@@ -1,10 +1,5 @@
 //                         2. Convert all the strings to title caps in a string array
 
-
-//Anonymos Function : Syntax: var funName = function(){return};   funName();
-//IIFE Function     : Syntax: (function () {} ) ( argument );
-//Arrow Function    : Syntax: var varName = (parameter)=>{};      varName();
-
 //------------------Anonymos---------------------------
 let titleCase = function (str) {
         str = str.toLowerCase().split(' ');

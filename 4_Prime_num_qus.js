@@ -1,4 +1,4 @@
-//                         4.Return all the prime numbers in an array
+//           4.Return all the prime numbers in an array
 
 //--------------------------Anonymos Function---------------------------------
 
