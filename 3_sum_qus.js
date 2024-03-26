@@ -14,6 +14,7 @@
                 sum += a[i];
             }
             console.log (`3.Anonymos : sum of a [1,2,3] is ${sum}`)
+            document.getElementById("3a").innerHTML = (`Anonymos : sum of a [1,2,3] is ${sum}`)
             return sum;
         }
         sumArr([1,2,3]);
@@ -27,6 +28,8 @@
                 sum+=arr[i];
             }
             console.log (`3.IIFE     : sum of a [4,5,6] is ${sum}`)
+            document.getElementById("3b").innerHTML = (`IIFE     : sum of a [4,5,6] is ${sum}`)
+
             return sum;
 
         } )
@@ -40,6 +43,8 @@
                 sum+=arr[i]
             }
             console.log (`3.Arrow    : sum of a [7,8,9] is ${sum}`)
+            document.getElementById("3c").innerHTML = (`Arrow    : sum of a [7,8,9] is ${sum}`)
+
             return sum
         }
 

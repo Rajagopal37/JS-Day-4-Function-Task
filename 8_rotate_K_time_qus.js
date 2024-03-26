@@ -12,7 +12,7 @@ let k_time_rotate = function (arr,k) {
     let rotate_nums = arr.slice(-rotate_times);
     let no_rotate = arr.slice(0, arr.length - rotate_times );
     let result = rotate_nums.concat(no_rotate);
-    console.log(`Anonymous : An array of [${arr}] rotating by k (${k}) times, the result is -  ${result}`);
+    console.log(`8.Anonymous : An array of [${arr}] rotating by k (${k}) times, the result is -  ${result}`);
     document.getElementById("8a").innerHTML = (`Anonymous : An array of [${arr}] rotating by k (${k}) times, the result is -  ${result}`)
     return result;
 }
@@ -30,7 +30,7 @@ let rotateArrayK = (arr,k) => {
     let rotate_nums = arr.slice(-rotate_times);
     let no_rotate = arr.slice(0, arr.length-rotate_times);
     let result = rotate_nums.concat(no_rotate);
-    console.log(`Arrow : An array of [${arr}] rotating by k (${k}) times, the result is -  ${result}`);
+    console.log(`8.Arrow : An array of [${arr}] rotating by k (${k}) times, the result is -  ${result}`);
     document.getElementById("8b").innerHTML = (`Arrow : An array of [${arr}] rotating by k (${k}) times, the result is -  ${result}`)
 }
 
