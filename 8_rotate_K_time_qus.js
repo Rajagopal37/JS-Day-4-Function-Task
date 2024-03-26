@@ -20,7 +20,10 @@ let array = [1,2,3,4,5,6,7,8,9,10]
 let k = 18;
 k_time_rotate(array,k);
 
+
+
 //-----------------------Arrow----------------------------------
+
 let rotateArrayK = (arr,k) => {
     if( !Array.isArray(arr) || !Number.isInteger(k) || k<0 ) {
         alert("Invalit input")

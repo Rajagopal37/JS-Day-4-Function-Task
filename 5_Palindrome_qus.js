@@ -5,7 +5,7 @@
 //Arrow Function    : Syntax: var varName = (parameter)=>{};      varName();
 
 
-var arr = ["abc","did","Mom","Dad","xyz",300];
+let arr = ["abc","did","Mom","Dad","xyz",300];
 
 function isPalindrome (str) {  
     let right = str.toLowerCase().replace(/[^a-z0-9]/g,"");
